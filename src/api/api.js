@@ -1,10 +1,9 @@
 import axios from 'axios';
 
-// Configure API base URL from environment variables
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://event-management-t804.onrender.com';
+
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000';
 const API_URL = `${API_BASE_URL}/api`;
 const API_TIMEOUT = process.env.REACT_APP_API_TIMEOUT || 10000; // 10 seconds default
-
 
 // Create axios instance with default config
 const api = axios.create({

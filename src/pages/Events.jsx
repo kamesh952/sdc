@@ -4,7 +4,7 @@ import styled, { keyframes, css } from "styled-components";
 
 // API configuration using environment variables
 const API_CONFIG = {
-  BASE_URL: process.env.REACT_APP_API_BASE_URL || 'https://event-management-t804.onrender.com',
+  BASE_URL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000',
   ENDPOINTS: {
     USERS: '/api/users/profile',
     EVENTS: '/api/events',
