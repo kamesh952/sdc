@@ -4,7 +4,7 @@ import { Calendar, Clock, User, Mail, Phone, MapPin, Eye, Trash2, Filter, Search
 
 // API configuration using environment variables
 const API_CONFIG = {
-  BASE_URL:  'https://event-management-hris.onrender.com',
+  BASE_URL:  'https://event-management-nq0b.onrender.com',
   ENDPOINTS: {
     BOOKINGS: '/api/bookings',
     USERS: '/api/users'
