@@ -123,7 +123,7 @@ const Hero = () => {
                     to="events/create"
                     className="bg-white text-gray-950 px-8 py-3 rounded-full text-lg font-semibold shadow-md hover:shadow-lg hover:bg-gray-100 transition-all duration-300 ease-in-out transform hover:-translate-y-1"
                   >
-                    Shop Now
+                    Book Now
                   </Link>
                 ) : (
                   <Link
