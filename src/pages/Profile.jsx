@@ -593,7 +593,7 @@ const Profile = () => {
           </Brand>
 
           <NavButtons>
-            <PrimaryButton onClick={() => navigate("/events")}>
+            <PrimaryButton onClick={() => navigate("/events/create")}>
               <svg
                 width="16"
                 height="16"
