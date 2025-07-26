@@ -227,7 +227,7 @@ const Header = () => {
               className="block px-3 py-2 rounded-md text-base font-bold text-gray-800 hover:bg-gray-50 no-underline font-outfit"
               onClick={() => setIsMenuOpen(false)}
             >
-              Bookings
+              BOOKINGS
             </Link>
             <Link
               to="/events"
